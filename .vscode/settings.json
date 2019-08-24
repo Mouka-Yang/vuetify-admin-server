@@ -1,0 +1,23 @@
+{
+  "standard.enable": false,
+  "files.eol": "\n",
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    }
+  ],
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnSave": false,
+  "files.autoSave": "off",
+  "editor.acceptSuggestionOnEnter": "off",
+  "eslint.run": "onType"
+}

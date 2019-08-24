@@ -1,0 +1,34 @@
+{
+  "name": "egg-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".autod.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev --port=9999",
+    "start": "eggctl start ",
+    "stop": "eggctl stop"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "egg-bin": "^4.13.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "standard": "^13.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "egg": "^2.23.0",
+    "egg-history-api-fallback": "^2.0.1",
+    "egg-mongoose": "^3.2.0",
+    "egg-scripts": "^2.11.0",
+    "egg-validate": "^2.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^5.0.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.7",
+    "svg-captcha": "^1.4.0"
+  }
+}
