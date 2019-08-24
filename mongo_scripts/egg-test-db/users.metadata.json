@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"egg-test-db.users"},{"v":2,"unique":true,"key":{"Username":1},"name":"Username_1","ns":"egg-test-db.users","background":true}],"uuid":"f969ada53c714d0abdc5a1b1de45f453"}
