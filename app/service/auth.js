@@ -20,6 +20,7 @@ class AuthService extends Service {
   async login(username, password) {
     // const res = await this.ctx.model.User.isValidUser(username, password)
     try {
+      console.log(this.ctx.model);
       let userId = await this.ctx.model.User.find(
         { Username: username, Password: password },
         { _id: 1 },

@@ -4,8 +4,6 @@ const path = require('path');
 module.exports = {
   keys: 'biubiubiu',
 
-  baseDir: 'C:\\Users\\jasonzyang\\Desktop\\web_test\\myApp\\myBackend',
-
   // middlewares config
   middleware: ['robot', 'authValidator', 'loginValidator'],
 
@@ -62,6 +60,13 @@ module.exports = {
   // egg-static
   static: {
     prefix: '/',
-    dir: 'C:\\Users\\jasonzyang\\Desktop\\web_test\\myApp\\myFront\\dist',
+    dir: 'dist',
+  },
+
+
+  security: {
+    csrf: {
+      enable: false,
+    },
   },
 };
